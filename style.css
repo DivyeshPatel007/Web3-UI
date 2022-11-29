@@ -24,6 +24,17 @@ button{
     color: #fff;
     font-family: "jost",sans-serif;
 }
+.trans-btn{
+    border: 1px solid;
+    border-image: linear-gradient(to left, #7184FD, #3F7AF0, #4F37EE);
+    border-image-slice: 1;
+    border-radius: 10px;
+    background: #132D6B;
+    padding: 10px 40px;
+    color: #fff;
+    font-family: "jost",sans-serif;
+}
+
 /* hero-section */
 .hero-section{
     background-color:#15306F;
@@ -62,7 +73,9 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 80px;
 }
+
 .hero-heading{
     font-size: 60px;
     color: #fff;
@@ -70,7 +83,16 @@ button{
     
 }
 .hero-lead{
+    margin:50px 0;
     font-size: 32px;
     color: #fff;
     font-weight: 500;
+}
+.hero-btn{
+    display: flex;
+    gap: 35px;
+}
+.hero-btn .primary-btn,
+.hero-btn .trans-btn{
+    font-size: 20px;
 }
