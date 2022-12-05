@@ -25,6 +25,18 @@ button {
   color: #fff;
   font-family: "jost", sans-serif;
 }
+.primary-heading{
+  color: #2D83EE;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.secondary-heading{
+  color: #391400;
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
 .trans-btn {
   border: 1px solid;
   border-image: linear-gradient(to left, #7184fd, #3f7af0, #4f37ee);
@@ -118,4 +130,13 @@ button {
 .showcase-lead{
     font-size: 22px;
     color:#fff
+}
+
+/* Client */
+
+.client{
+  margin-top: 100px;
+}
+.client .secondary-heading{
+  margin: 20px 0 50px 0 ;
 }
